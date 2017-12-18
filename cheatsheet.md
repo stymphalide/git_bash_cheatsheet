@@ -38,6 +38,6 @@ Command | Usage
 Command | Usage
 --------|------
 `git branch (-r)` | Shows all branches. The `-r` flag shows remote branches.
-`git checkout -b <branchname>` | creates a new branch with name `<branchname>`.
-`git merge <branchA>` | Merges `<branchA>` with the current branch.
+`git checkout (-b) <branchname>` | Switches (or creates) a branch with name `<branchname>`.
+`git merge <branch>` | Merges `<branch>` with the current branch.
 `git branch -d <branch>` | Deletes the branch.
