@@ -20,3 +20,24 @@ Command | Usage
 `mv <file/dir> <filename/dirname> `| Renames/Moves file or directory. 
 `rm -r <dir>` | Deletes directory.
 `rm <file>` | Deletes file.
+
+
+## Git
+### Basic File Tracking
+Command | Usage
+--------|------
+`git init` | Initialises an empty git repository into the current directory.
+`git status` | Shows the satus of the working directory. (Really verbose, great to decide what to do next.)
+`git add <file>` | Adds the given file to the staging area
+`git commit (-m <CommitMsg>)` | Adds the staged files to the repo, if the `-m` flag is omitted, the default editor will open.
+`git log` | Shows every commit done.
+`git checkout <file>` | Resets the contents of a file to the latest commit.
+`git reset <Hash/Tag>` | Resets the contents of the directory to the state of the hash
+
+### Branching
+Command | Usage
+--------|------
+`git branch (-r)` | Shows all branches. The `-r` flag shows remote branches.
+`git checkout -b <branchname>` | creates a new branch with name `<branchname>`.
+`git merge <branchA>` | Merges `<branchA>` with the current branch.
+`git branch -d <branch>` | Deletes the branch.
