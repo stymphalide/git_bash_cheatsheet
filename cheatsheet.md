@@ -41,3 +41,13 @@ Command | Usage
 `git checkout (-b) <branchname>` | Switches (or creates) a branch with name `<branchname>`.
 `git merge <branch>` | Merges `<branch>` with the current branch.
 `git branch -d <branch>` | Deletes the branch.
+`git branch --track <branch> <remoteBranch>` | Creates a branch that tracks a remote one.
+
+
+### Working with Remotes
+Command | Usage
+--------|------
+`git clone <link>` | Clones the repository from the `link`.
+`git push <remote> <branch>` | Updates the remote branch.
+`git fetch` | Updates local repository from remote.
+`git pull <remote> <branch>` | Like `fetch` and `merge <remote> <branch>` combined.
