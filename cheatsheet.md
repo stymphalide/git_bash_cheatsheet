@@ -3,4 +3,5 @@ Provides a number of useful commands concerning project management with a bash c
 
 ## Bash
 Command | Usage
+--------|--------
 `pwd` | Shows the path to the current directory
